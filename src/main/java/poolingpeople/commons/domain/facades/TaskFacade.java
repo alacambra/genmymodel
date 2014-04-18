@@ -1,5 +1,10 @@
 package poolingpeople.commons.domain.facades;
 
+import java.util.LinkedList;
+import java.util.Set;
+import poolingpeople.commons.domain.entities.Task;
+import java.util.List;
+import java.util.LinkedHashSet;
 import poolingpeople.java.util.Collection;
 import poolingpeople.commons.domain.entities.User;
 
@@ -18,7 +23,7 @@ public  interface TaskFacade  extends PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public java.util.Collection getTaskOfAssignee(User assignee) ;
+	public List<Task> getTaskOfAssignee(User assignee) ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -27,7 +32,7 @@ public  interface TaskFacade  extends PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public java.util.Collection getTaskOfCreator(User creator) ;
+	public Set<Task> getTaskOfCreator(User creator) ;
 	
 	
 }

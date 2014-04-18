@@ -1,5 +1,7 @@
 package poolingpeople.commons.domain.entities;
 
+import java.util.Set;
+import java.util.HashSet;
 import poolingpeople.java.util.Collection;
 
 
@@ -26,7 +28,7 @@ public  interface User  extends PoolingpeopleObject
 	 * @ordered
 	 */
 	
-	public java.util.Collection getEfforts() ;
+	public Set<Effort> getEfforts() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -62,7 +64,7 @@ public  interface User  extends PoolingpeopleObject
 	 * @ordered
 	 */
 	
-	public java.util.Collection getTasks() ;
+	public Set<Task> getTasks() ;
 	
 	/**
 	 * <!-- begin-user-doc -->

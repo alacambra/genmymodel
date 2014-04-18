@@ -1,6 +1,10 @@
 package poolingpeople.persitence.neo4j.core;
 
+import java.util.LinkedList;
 import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
+import java.util.Set;
+import java.util.List;
+import java.util.HashSet;
 import poolingpeople.java.util.Collection;
 
 
@@ -18,7 +22,7 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public void createNode() ;
+	public List<NodeWrapper> createNode() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -36,8 +40,17 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public void deleteNode(String id) ;
+	public void deleteNode(String uuid) ;
 	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public void executeQuery(String query) ;
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -63,7 +76,7 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public java.util.Collection getNodesCollection() ;
+	public Set<NodeWrapper> getNodesCollection() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -72,7 +85,7 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public java.util.Collection getRelatedNodes() ;
+	public Set<NodeWrapper> getRelatedNodes() ;
 	
 	
 }

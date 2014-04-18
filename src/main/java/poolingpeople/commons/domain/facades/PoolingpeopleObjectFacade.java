@@ -17,6 +17,15 @@ public  interface PoolingpeopleObjectFacade  extends ChangelogFacade
 	 * @ordered
 	 */
 	
+	public java.lang.Object createFromObject(java.lang.Object parameter) ;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
 	public void deleteObjectById(String parameter) ;
 	
 	/**
@@ -27,15 +36,6 @@ public  interface PoolingpeopleObjectFacade  extends ChangelogFacade
 	 */
 	
 	public void getObjectById(String parameter) ;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public java.lang.Object persist(java.lang.Object parameter) ;
 	
 	/**
 	 * <!-- begin-user-doc -->

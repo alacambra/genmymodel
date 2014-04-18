@@ -4,21 +4,13 @@ import poolingpeople.java.lang.Class;
 
 
 /**
+ * Validate that start and end nodes are valid.
  * <!-- begin-user-doc -->
  * <!--  end-user-doc  -->
  * @generated
  */
 public  interface Relation 
 {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public void addValidPair(java.lang.Class startNodeType, java.lang.Class endNoteType) ;
-	
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->

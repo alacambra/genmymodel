@@ -1,4 +1,5 @@
 package poolingpeople.persitence.neo4j.model;
+import poolingpeople.persitence.neo4j.core.Neo4jClient;
 import poolingpeople.org.neo4j.graphdb.Direction;
 
 
@@ -10,6 +11,15 @@ import poolingpeople.org.neo4j.graphdb.Direction;
 
 public abstract class PersistedEntity
 {
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public Neo4jClient neo4jClient;
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -48,7 +58,19 @@ public abstract class PersistedEntity
 	 * @ordered
 	 */
 	
-	public void createRelationWithEntity() {
+	public Relation createRelationWithEntity(org.neo4j.graphdb.Direction direction, PersistedEntity relatedEntity) {
+		// TODO : to implement
+		return new Relation();	
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public void removeRelationWithEntity(org.neo4j.graphdb.Direction entity) {
 		// TODO : to implement	
 	}
 	
