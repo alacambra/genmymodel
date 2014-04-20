@@ -1,5 +1,4 @@
 package poolingpeople.persitence.neo4j.helpers;
-import poolingpeople.org.neo4j.graphdb.Node;
 import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.LinkedList;
 import java.util.Set;
@@ -47,7 +46,7 @@ public class PersistedEntityWrapperLoaderImpl implements PersistedEntityWrapperL
 	
 	public java.lang.Class getPersistedEntityClassForNode(org.neo4j.graphdb.Node node) {
 		// TODO : to implement
-		return new java.lang.Class();	
+		return null;	
 	}
 
 	/**
@@ -98,7 +97,7 @@ public class PersistedEntityWrapperLoaderImpl implements PersistedEntityWrapperL
 	
 	public PoolingpeopleObject wrapNodeInEntity(org.neo4j.graphdb.Node node) {
 		// TODO : to implement
-		return new PoolingpeopleObject();	
+		return null;	
 	}
 
 	/**

@@ -1,6 +1,5 @@
 package poolingpeople.persitence.neo4j.helpers;
 
-import poolingpeople.org.neo4j.graphdb.Node;
 import java.util.LinkedList;
 import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.List;

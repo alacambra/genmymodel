@@ -1,6 +1,6 @@
 package poolingpeople.persitence.neo4j.model;
+
 import poolingpeople.persitence.neo4j.core.Neo4jClient;
-import poolingpeople.org.neo4j.graphdb.Direction;
 
 
 /**
@@ -60,7 +60,32 @@ public abstract class PersistedEntity
 	
 	public Relation createRelationWithEntity(org.neo4j.graphdb.Direction direction, PersistedEntity relatedEntity) {
 		// TODO : to implement
-		return new Relation();	
+		return new Relation() {
+			
+			@Override
+			public void validatePair(Class startNodeType, Class endNodeType) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void getStartEntity() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public String getName() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public void getEndEntity() {
+				// TODO Auto-generated method stub
+				
+			}
+		};	
 	}
 
 	/**

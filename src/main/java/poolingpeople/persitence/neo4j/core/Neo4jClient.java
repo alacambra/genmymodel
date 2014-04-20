@@ -1,13 +1,6 @@
 package poolingpeople.persitence.neo4j.core;
 
-import poolingpeople.org.neo4j.graphdb.Node;
-import java.util.LinkedList;
-import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.Set;
-import java.util.List;
-import java.util.HashSet;
-import java.util.Collection;
-
 
 /**
  * <!-- begin-user-doc -->
