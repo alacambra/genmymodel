@@ -2,7 +2,7 @@ package poolingpeople.commons.domain.entities;
 
 import java.util.Set;
 import java.util.HashSet;
-import poolingpeople.java.util.Collection;
+import java.util.Collection;
 
 
 /**

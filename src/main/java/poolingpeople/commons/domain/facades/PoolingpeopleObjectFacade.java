@@ -1,6 +1,6 @@
 package poolingpeople.commons.domain.facades;
 
-import poolingpeople.java.lang.Object;
+import java.lang.Object;
 
 
 /**

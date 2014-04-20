@@ -5,7 +5,7 @@ import java.util.Set;
 import poolingpeople.commons.domain.entities.Task;
 import java.util.List;
 import java.util.LinkedHashSet;
-import poolingpeople.java.util.Collection;
+import java.util.Collection;
 import poolingpeople.commons.domain.entities.User;
 
 

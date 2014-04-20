@@ -5,7 +5,7 @@ import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.Set;
 import java.util.List;
 import java.util.HashSet;
-import poolingpeople.java.util.Collection;
+import java.util.Collection;
 
 
 /**

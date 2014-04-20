@@ -1,6 +1,6 @@
 package poolingpeople.persitence.neo4j.model;
 
-import poolingpeople.java.lang.Class;
+import java.lang.Class;
 
 
 /**

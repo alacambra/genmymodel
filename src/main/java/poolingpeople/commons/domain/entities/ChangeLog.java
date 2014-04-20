@@ -1,5 +1,7 @@
 package poolingpeople.commons.domain.entities;
 
+import org.neo4j.graphdb.Node;
+
 
 
 /**

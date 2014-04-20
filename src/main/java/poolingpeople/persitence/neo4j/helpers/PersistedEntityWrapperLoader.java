@@ -5,9 +5,9 @@ import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.List;
 import java.util.Set;
 import poolingpeople.persitence.neo4j.model.PersistedEntity;
-import poolingpeople.java.util.Collection;
+import java.util.Collection;
 import java.util.HashSet;
-import poolingpeople.java.lang.Class;
+import java.lang.Class;
 import poolingpeople.commons.domain.entities.PoolingpeopleObject;
 
 

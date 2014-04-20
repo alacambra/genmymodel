@@ -12,6 +12,11 @@
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>1.7</java-version>
+		<maven.compiler.target>1.7</maven.compiler.target>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<neo4j.version>2.0.1</neo4j.version>
+		<log4j.version>1.2.17</log4j.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<!--
 		* End of user code for project
@@ -45,11 +50,10 @@
 		  -->
 	</build>
 	<dependencies>
-		<!--
-			* Start of user code for dependencies
-		  -->
-		<!--
-			* End of user code for dependencies
-		  -->
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j</artifactId>
+			<version>${neo4j.version}</version>
+		</dependency>
 	</dependencies>
 </project>

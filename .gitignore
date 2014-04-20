@@ -20,3 +20,6 @@ target/**
 .tmp/model_*.xmi
 
 model_*.xmi
+/.classpath
+/.project
+/.settings

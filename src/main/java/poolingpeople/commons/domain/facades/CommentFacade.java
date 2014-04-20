@@ -3,7 +3,7 @@ package poolingpeople.commons.domain.facades;
 import poolingpeople.commons.domain.entities.Comment;
 import java.util.Set;
 import java.util.HashSet;
-import poolingpeople.java.util.Collection;
+import java.util.Collection;
 import poolingpeople.commons.domain.entities.PoolingpeopleObject;
 
 

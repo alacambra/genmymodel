@@ -2,12 +2,12 @@ package poolingpeople.persitence.neo4j.helpers;
 import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.LinkedList;
 import java.util.Set;
-import poolingpeople.java.util.Map;
+import java.util.Map;
 import java.util.List;
 import poolingpeople.persitence.neo4j.model.PersistedEntity;
-import poolingpeople.java.util.Collection;
+import java.util.Collection;
 import java.util.HashSet;
-import poolingpeople.java.lang.Class;
+import java.lang.Class;
 import poolingpeople.commons.domain.entities.PoolingpeopleObject;
 
 

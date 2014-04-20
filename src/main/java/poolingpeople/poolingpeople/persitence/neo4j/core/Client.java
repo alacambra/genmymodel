@@ -1,8 +1,6 @@
 package poolingpeople.poolingpeople.persitence.neo4j.core;
 
-import poolingpeople.java.util.Map;
-import poolingpeople.org.neo4j.graphdb.Direction;
-import poolingpeople.java.util.Collection;
+import org.neo4j.graphdb.Direction;
 
 
 /**

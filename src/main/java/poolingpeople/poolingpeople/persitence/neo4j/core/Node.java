@@ -1,7 +1,7 @@
 package poolingpeople.poolingpeople.persitence.neo4j.core;
 
-import poolingpeople.java.util.Map;
-import poolingpeople.java.lang.Object;
+import java.util.Map;
+import java.lang.Object;
 
 
 /**

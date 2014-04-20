@@ -1,7 +1,7 @@
 package poolingpeople.poolingpeople.persitence.neo4j.core;
 
-import poolingpeople.java.util.Collection;
-import poolingpeople.java.lang.Object;
+import java.util.Collection;
+import java.lang.Object;
 
 
 /**
