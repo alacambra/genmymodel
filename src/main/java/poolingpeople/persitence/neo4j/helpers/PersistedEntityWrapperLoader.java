@@ -1,7 +1,6 @@
 package poolingpeople.persitence.neo4j.helpers;
 
 import java.util.LinkedList;
-import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.List;
 import java.util.Set;
 import poolingpeople.persitence.neo4j.model.PersistedEntity;
