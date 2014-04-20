@@ -1,5 +1,6 @@
 package poolingpeople.persitence.neo4j.helpers;
 
+import poolingpeople.org.neo4j.graphdb.Node;
 import java.util.LinkedList;
 import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.List;
@@ -26,7 +27,7 @@ public  interface PersistedEntityWrapperLoader
 	 * @ordered
 	 */
 	
-	public PersistedEntity wrapNodeInEntity(Node node, java.lang.Class clazz) ;
+	public PersistedEntity wrapNodeInEntity(org.neo4j.graphdb.Node node, java.lang.Class clazz) ;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -35,7 +36,7 @@ public  interface PersistedEntityWrapperLoader
 	 * @ordered
 	 */
 	
-	public PoolingpeopleObject wrapNodeInEntity(Node node) ;
+	public PoolingpeopleObject wrapNodeInEntity(org.neo4j.graphdb.Node node) ;
 
 	/**
 	 * Return a collection of persistedEntities of the given class. The class must be a subclass of PersistedEntity
@@ -54,7 +55,7 @@ public  interface PersistedEntityWrapperLoader
 	 * @ordered
 	 */
 	
-	public List<PoolingpeopleObject> wrapNodesInEntities(Node nodes, java.lang.Class interfaceClazz, java.lang.Class implementationClazz) ;
+	public List<PoolingpeopleObject> wrapNodesInEntities(org.neo4j.graphdb.Node nodes, java.lang.Class interfaceClazz, java.lang.Class implementationClazz) ;
 
 	/**
 	 * Returns a collections of PoolingpeopleObjects
@@ -64,7 +65,7 @@ public  interface PersistedEntityWrapperLoader
 	 * @ordered
 	 */
 	
-	public Set<PersistedEntity> wrapNodesInEntities(List<Node> node) ;
+	public Set<PersistedEntity> wrapNodesInEntities(List<org.neo4j.graphdb.Node> node) ;
 	
 	
 }

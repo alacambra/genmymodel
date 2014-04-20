@@ -1,5 +1,6 @@
 package poolingpeople.persitence.neo4j.core;
 
+import poolingpeople.org.neo4j.graphdb.Node;
 import java.util.LinkedList;
 import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.Set;
@@ -22,7 +23,7 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public List<NodeWrapper> createNode() ;
+	public void createNode() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -58,7 +59,7 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public Node getNode(long id) ;
+	public org.neo4j.graphdb.Node getNode(long id) ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -67,7 +68,7 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public Node getNode(String id) ;
+	public org.neo4j.graphdb.Node getNode(String id) ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -76,7 +77,7 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public Set<NodeWrapper> getNodesCollection() ;
+	public Set<org.neo4j.graphdb.Node> getNodesCollection() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -85,7 +86,7 @@ public  interface Neo4jClient
 	 * @ordered
 	 */
 	
-	public Set<NodeWrapper> getRelatedNodes() ;
+	public void getRelatedNodes() ;
 	
 	
 }

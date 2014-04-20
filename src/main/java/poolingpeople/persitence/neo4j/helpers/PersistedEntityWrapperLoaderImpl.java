@@ -1,4 +1,5 @@
 package poolingpeople.persitence.neo4j.helpers;
+import poolingpeople.org.neo4j.graphdb.Node;
 import poolingpeople.poolingpeople.persitence.neo4j.core.Node;
 import java.util.LinkedList;
 import java.util.Set;
@@ -44,11 +45,11 @@ public class PersistedEntityWrapperLoaderImpl implements PersistedEntityWrapperL
 	 * @ordered
 	 */
 	
-	public java.lang.Class getPersistedEntityClassForNode(Node node) {
+	public java.lang.Class getPersistedEntityClassForNode(org.neo4j.graphdb.Node node) {
 		// TODO : to implement
 		return new java.lang.Class();	
 	}
-	
+
 	/**
 	 * Returns a collections of PoolingpeopleObjects
 	 * <!-- begin-user-doc -->
@@ -57,44 +58,7 @@ public class PersistedEntityWrapperLoaderImpl implements PersistedEntityWrapperL
 	 * @ordered
 	 */
 	
-	public Set<PersistedEntity> wrapNodesInEntities(List<Node> node) {
-		// TODO : to implement
-		return null;	
-	}
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public List<PoolingpeopleObject> wrapNodesInEntities(Node nodes, java.lang.Class interfaceClazz, java.lang.Class implementationClazz) {
-		// TODO : to implement
-		return null;	
-	}
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public PoolingpeopleObject wrapNodeInEntity(Node node) {
-		// TODO : to implement
-		return new PoolingpeopleObject();	
-	}
-	
-	/**
-	 * Return a persistedEntity of the given class. The class must be a subclass of PersistedEntity
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public PersistedEntity wrapNodeInEntity(Node node, java.lang.Class clazz) {
+	public Set<PersistedEntity> wrapNodesInEntities(List<org.neo4j.graphdb.Node> node) {
 		// TODO : to implement
 		return null;	
 	}
@@ -108,6 +72,43 @@ public class PersistedEntityWrapperLoaderImpl implements PersistedEntityWrapperL
 	 */
 	
 	public List<PersistedEntity> wrapNodesInEntities(java.util.Collection nodes, java.lang.Class clazz) {
+		// TODO : to implement
+		return null;	
+	}
+
+	/**
+	 * Return a persistedEntity of the given class. The class must be a subclass of PersistedEntity
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public PersistedEntity wrapNodeInEntity(org.neo4j.graphdb.Node node, java.lang.Class clazz) {
+		// TODO : to implement
+		return null;	
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public PoolingpeopleObject wrapNodeInEntity(org.neo4j.graphdb.Node node) {
+		// TODO : to implement
+		return new PoolingpeopleObject();	
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public List<PoolingpeopleObject> wrapNodesInEntities(org.neo4j.graphdb.Node nodes, java.lang.Class interfaceClazz, java.lang.Class implementationClazz) {
 		// TODO : to implement
 		return null;	
 	}
