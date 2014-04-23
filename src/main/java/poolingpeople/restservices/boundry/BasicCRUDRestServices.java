@@ -1,7 +1,5 @@
-package poolingpeople.commons.domain.facades;
+package poolingpeople.restservices.boundry;
 
-import poolingpeople.java.lang.Object;
-import java.lang.Object;
 
 
 /**
@@ -9,7 +7,7 @@ import java.lang.Object;
  * <!--  end-user-doc  -->
  * @generated
  */
-public  interface PoolingpeopleObjectFacade
+public  interface BasicCRUDRestServices 
 {
 	/**
 	 * <!-- begin-user-doc -->
@@ -18,16 +16,7 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public java.lang.Object createFromObject(java.lang.Object parameter) ;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public void deleteObjectById(String parameter) ;
+	public void create() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -36,7 +25,7 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public void getObjectById(String parameter) ;
+	public void delete() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -45,7 +34,25 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public java.lang.Object updateObject(java.lang.Object parameter) ;
+	public void list() ;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public void read() ;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public void update() ;
 	
 	
 }

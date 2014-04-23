@@ -1,15 +1,14 @@
-package poolingpeople.commons.domain.facades;
+package poolingpeople.restservices.boundry;
 
-import poolingpeople.java.lang.Object;
-import java.lang.Object;
 
 
 /**
+ * CRUD task<div>createSubtask</div><div>assignSubtask</div><div>removeAssignee</div><div><br></div><div><br><div><br></div></div>
  * <!-- begin-user-doc -->
  * <!--  end-user-doc  -->
  * @generated
  */
-public  interface PoolingpeopleObjectFacade
+public  interface TaskRestServices  extends BasicCRUDRestServices
 {
 	/**
 	 * <!-- begin-user-doc -->
@@ -18,16 +17,7 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public java.lang.Object createFromObject(java.lang.Object parameter) ;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public void deleteObjectById(String parameter) ;
+	public void addSubtask() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -36,7 +26,7 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public void getObjectById(String parameter) ;
+	public void createSubtask() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -45,7 +35,16 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public java.lang.Object updateObject(java.lang.Object parameter) ;
+	public void removeSubtask() ;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public void setAssignee() ;
 	
 	
 }

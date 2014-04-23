@@ -1,5 +1,6 @@
 package poolingpeople.persitence.neo4j.model;
 
+import poolingpeople.java.lang.Class;
 import java.lang.Class;
 
 
@@ -18,25 +19,7 @@ public  interface Relation
 	 * @ordered
 	 */
 	
-	public void getEndEntity() ;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	public String getName() ;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public void getStartEntity() ;
 	
 	/**
 	 * <!-- begin-user-doc -->

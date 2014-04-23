@@ -1,7 +1,6 @@
-package poolingpeople.commons.domain.facades;
+package poolingpeople.commons.utils;
 
-import poolingpeople.java.lang.Object;
-import java.lang.Object;
+import poolingpeople.commons.domain.entities.User;
 
 
 /**
@@ -9,7 +8,7 @@ import java.lang.Object;
  * <!--  end-user-doc  -->
  * @generated
  */
-public  interface PoolingpeopleObjectFacade
+public  interface LoggedUserContainer 
 {
 	/**
 	 * <!-- begin-user-doc -->
@@ -18,16 +17,7 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public java.lang.Object createFromObject(java.lang.Object parameter) ;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public void deleteObjectById(String parameter) ;
+	public Credentials getCredentials() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -36,7 +26,7 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public void getObjectById(String parameter) ;
+	public User getLoggedUser() ;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -45,7 +35,25 @@ public  interface PoolingpeopleObjectFacade
 	 * @ordered
 	 */
 	
-	public java.lang.Object updateObject(java.lang.Object parameter) ;
+	public void setCredentials(Credentials credentials) ;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public boolean userIsLogged() ;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public void validateCredentials() ;
 	
 	
 }

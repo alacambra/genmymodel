@@ -1,7 +1,4 @@
-package poolingpeople.persitence.neo4j.model;
-
-import poolingpeople.persitence.neo4j.core.Neo4jClient;
-import poolingpeople.org.neo4j.graphdb.Direction;
+package poolingpeople.restservices.boundry;
 
 
 /**
@@ -10,23 +7,14 @@ import poolingpeople.org.neo4j.graphdb.Direction;
  * @generated
  */
 
-public abstract class PersistedEntity
+public abstract class AbstractRestServices implements BasicCRUDRestServices
 {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
-	 * @ordered
 	 */
-	
-	public Neo4jClient neo4jClient;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
-	public PersistedEntity(){
+	public AbstractRestServices(){
 		super();
 	}
 
@@ -37,7 +25,7 @@ public abstract class PersistedEntity
 	 * @ordered
 	 */
 	
-	public void getRelatedEntities(Relation relation, org.neo4j.graphdb.Direction direction) {
+	public void list() {
 		// TODO : to implement	
 	}
 	
@@ -48,7 +36,7 @@ public abstract class PersistedEntity
 	 * @ordered
 	 */
 	
-	public void getUniqueRelatedEntity(org.neo4j.graphdb.Direction relation) {
+	public void create() {
 		// TODO : to implement	
 	}
 	
@@ -59,11 +47,10 @@ public abstract class PersistedEntity
 	 * @ordered
 	 */
 	
-	public Relation createRelationWithEntity(org.neo4j.graphdb.Direction direction, PersistedEntity relatedEntity, Relation relation) {
-		// TODO : to implement
-		return null;	
+	public void delete() {
+		// TODO : to implement	
 	}
-
+	
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -71,7 +58,18 @@ public abstract class PersistedEntity
 	 * @ordered
 	 */
 	
-	public void removeRelationWithEntity(org.neo4j.graphdb.Direction entity) {
+	public void update() {
+		// TODO : to implement	
+	}
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public void read() {
 		// TODO : to implement	
 	}
 	

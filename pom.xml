@@ -50,10 +50,11 @@
 		  -->
 	</build>
 	<dependencies>
-		<dependency>
-			<groupId>org.neo4j</groupId>
-			<artifactId>neo4j</artifactId>
-			<version>${neo4j.version}</version>
-		</dependency>
+		<!--
+			* Start of user code for dependencies
+		  -->
+		<!--
+			* End of user code for dependencies
+		  -->
 	</dependencies>
 </project>

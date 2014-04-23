@@ -1,11 +1,16 @@
 package poolingpeople.persitence.neo4j.helpers;
+import poolingpeople.org.neo4j.graphdb.Node;
 import java.util.LinkedList;
 import java.util.Set;
 import java.util.Map;
 import java.util.List;
+import poolingpeople.java.util.Map;
 import poolingpeople.persitence.neo4j.model.PersistedEntity;
+import poolingpeople.java.util.Collection;
+import poolingpeople.org.neo4j.graphdb.Direction;
 import java.util.Collection;
 import java.util.HashSet;
+import poolingpeople.java.lang.Class;
 import java.lang.Class;
 import poolingpeople.commons.domain.entities.PoolingpeopleObject;
 
@@ -45,7 +50,7 @@ public class PersistedEntityWrapperLoaderImpl implements PersistedEntityWrapperL
 	
 	public java.lang.Class getPersistedEntityClassForNode(org.neo4j.graphdb.Node node) {
 		// TODO : to implement
-		return null;	
+		return new java.lang.Class();	
 	}
 
 	/**
@@ -94,7 +99,7 @@ public class PersistedEntityWrapperLoaderImpl implements PersistedEntityWrapperL
 	 * @ordered
 	 */
 	
-	public PoolingpeopleObject wrapNodeInEntity(org.neo4j.graphdb.Node node) {
+	public List<PoolingpeopleObject> wrapNodesInEntities(org.neo4j.graphdb.Direction nodes, java.lang.Class interfaceClazz, java.lang.Class implementationClazz) {
 		// TODO : to implement
 		return null;	
 	}
@@ -106,7 +111,7 @@ public class PersistedEntityWrapperLoaderImpl implements PersistedEntityWrapperL
 	 * @ordered
 	 */
 	
-	public List<PoolingpeopleObject> wrapNodesInEntities(org.neo4j.graphdb.Node nodes, java.lang.Class interfaceClazz, java.lang.Class implementationClazz) {
+	public PoolingpeopleObject wrapNodeInEntity(org.neo4j.graphdb.Node node) {
 		// TODO : to implement
 		return null;	
 	}

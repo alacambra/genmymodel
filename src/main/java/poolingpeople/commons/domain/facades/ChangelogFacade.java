@@ -8,7 +8,7 @@ import poolingpeople.commons.domain.entities.PoolingpeopleObject;
  * <!--  end-user-doc  -->
  * @generated
  */
-public  interface ChangelogFacade 
+public  interface ChangelogFacade extends PoolingpeopleObjectFacade 
 {
 	/**
 	 * <!-- begin-user-doc -->
